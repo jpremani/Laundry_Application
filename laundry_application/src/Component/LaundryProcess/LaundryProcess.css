@@ -1,0 +1,50 @@
+.LaundryProcess {
+  background-color: rgb(231, 229, 229);
+  text-align: center;
+  /* margin-top: 10px; */
+  background-attachment: fixed;
+  height: 100vh;
+}
+.LaundryProcess h1 {
+  padding-top: 10px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: white;
+}
+.LaundryProcess_info {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 30px;
+}
+.LaundryProcess_img img {
+  width: 70%;
+  height: 60%;
+}
+.LaundryProcess_info span {
+  padding: 10px 30px;
+}
+.LaundryProcess_img img {
+  width: 50%;
+  height: 50%;
+}
+@media (max-width: 429px) {
+  .LaundryProcess {
+    height: 40vh;
+    padding-top: 40px;
+  }
+  .LaundryProcess_info {
+    display: none;
+  }
+  .LaundryProcess_img img {
+    margin-top: 10px;
+    width: 65%;
+    padding-bottom: 20px;
+    animation: loading1 1s ease-in-out;
+  }
+}
+@media (max-width: 840px) {
+  .LaundryProcess {
+    height: 60%;
+  }
+}

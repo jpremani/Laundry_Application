@@ -1,0 +1,137 @@
+.MainPage {
+  width: 100%;
+  /* height: 100vh; */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(173, 216, 230, 0.1),
+    rgba(173, 216, 230, 0.7)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.left_side {
+  padding-top: 70px;
+  padding-left: 100px;
+}
+.left_side_heading h5 {
+  color: rgb(17, 124, 160);
+  font-size: 30px;
+}
+.left_side_heading h5 span {
+  color: rgb(253, 69, 13);
+}
+
+.left_side_logo img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid yellow;
+  border-radius: 50%;
+  padding: 10px 10px;
+  background-color: lightyellow;
+}
+.left_side_logo div {
+  display: flex;
+  margin-top: 20px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.left_logo_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.left_logo_info > span:first-child {
+  color: rgb(247, 0, 0);
+}
+.left_logo_info > span:nth-child(2) {
+  font-weight: bold;
+  color: orange;
+  font-size: 25px;
+}
+.right_side {
+  padding-top: 70px;
+  padding-left: 100px;
+}
+.right_side_logo img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid yellow;
+  border-radius: 50%;
+  padding: 10px 10px;
+  background-color: lightyellow;
+}
+.right_side_heading h5 {
+  color: rgb(253, 69, 13);
+  font-size: 30px;
+}
+.right_side_heading h5 span {
+  color: rgb(17, 124, 160);
+}
+.right_side_logo div {
+  display: flex;
+  margin-top: 20px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.right_logo_info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.right_logo_info > span:first-child {
+  color: rgb(247, 0, 0);
+}
+.right_logo_info > span:nth-child(2) {
+  font-weight: bold;
+  color: green;
+  font-size: 25px;
+}
+@media (max-width: 429px) {
+  .left_side {
+    margin-top: -40px;
+    margin-left: -30px;
+  }
+  .MainPage {
+    flex-direction: column;
+    margin-top: 300px;
+  }
+  .left_side_heading h5 {
+    font-size: 20px;
+  }
+  .left_side_logo img {
+    width: 50px;
+    height: 50px;
+  }
+  .left_logo_info span {
+    font-size: 10px;
+  }
+  .right_side_heading h5 {
+    font-size: 20px;
+  }
+  .right_side_logo img {
+    width: 50px;
+    height: 50px;
+  }
+  .right_logo_info span {
+    font-size: 10px;
+  }
+  .right_side {
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+}
+@media (max-width: 360px) {
+  .MainPage {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 380px) {
+  .MainPage {
+    margin-top: 150px;
+  }
+}

@@ -1,0 +1,177 @@
+.ServicePage_Expert {
+  background-image: url("../../assets/ServicePage/Banner.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("../../assets/ServicePage/Banner.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ServicePage_Expert h1 {
+  color: white;
+  font-size: 7rem;
+}
+.ServicePage_Expert_info {
+  display: flex;
+  margin-top: 10px;
+}
+.ServicePage_Expert_point {
+  border: 1px solid white;
+  font-size: 2rem;
+  color: skyblue;
+  padding: 6px 10px;
+  margin-right: 20px;
+  transition: 0.2s ease-in;
+  font-weight: bold;
+}
+.ServicePage_Expert_point:hover {
+  background-color: rgb(42, 114, 143);
+  color: white;
+}
+.ServicePage_Expert button {
+  margin-top: 30px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 16px;
+  font-size: 30px;
+  background-color: whitesmoke;
+}
+.ServicePage_Expert button:hover {
+  background-color: skyblue;
+  color: white;
+  font-weight: bold;
+}
+.ServicePage_Laundry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ServicePage_Laundry_left {
+  background-color: skyblue;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120vw;
+  padding: 0px 40px;
+}
+.ServicePage_Laundry_left h1 {
+  font-size: 80px;
+}
+.ServicePage_Laundry_left p {
+  font-size: 20px;
+}
+.ServicePage_Laundry_right img {
+  width: 80%;
+  height: 90%;
+}
+.ServicePage_DryClean {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 80vh; */
+}
+.ServicePage_DryClean_left img {
+  width: 80%;
+  height: 90%;
+}
+.ServicePage_DryClean_right {
+  background-color: skyblue;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  padding: 0px 40px;
+}
+.ServicePage_DryClean_right h1 {
+  font-size: 80px;
+}
+.ServicePage_DryClean_right p {
+  font-size: 20px;
+}
+.ServicePage_Shoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: skyblue;
+  margin-top: 40px;
+}
+.ServicePage_Shoes_left h1 {
+  font-size: 80px;
+}
+.ServicePage_Shoes_left h1 span {
+  color: white;
+}
+.ServicePage_Shoes_left p {
+  font-size: 20px;
+}
+.ServicePage_Shoes_right img {
+  width: 90%;
+  height: 20rem;
+}
+@media (max-width: 429px) {
+  .ServicePage_Expert h1 {
+    font-size: 4rem;
+  }
+  .ServicePage_Expert_point {
+    font-size: 1rem;
+    /* text-align: center; */
+    margin: 0px auto;
+  }
+
+  .ServicePage_Expert button {
+    padding: 10px 30px;
+    margin-top: 70px;
+  }
+  .ServicePage_Laundry {
+    /* display: block; */
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .ServicePage_Laundry_left {
+    padding-left: 100px;
+    padding-top: 90px;
+  }
+
+  .ServicePage_Laundry_right {
+    position: absolute;
+    top: -10px;
+  }
+  .ServicePage_Laundry_right img {
+    width: 240px;
+    height: 240px;
+    margin-left: 40px;
+  }
+
+  .ServicePage_DryClean {
+    margin-top: 20px;
+  }
+  .ServicePage_DryClean_left img {
+    display: none;
+  }
+  .ServicePage_DryClean_right {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .ServicePage_DryClean_left {
+    position: absolute;
+  }
+  .ServicePage_Shoes {
+    display: block;
+    text-align: center;
+  }
+}

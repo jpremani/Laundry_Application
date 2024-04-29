@@ -1,0 +1,81 @@
+.AboutUs_banner {
+  background-image: url("../../assets/ServicePage/Aboutus.png");
+  background-attachment: fixed;
+  width: 100vw;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  font-weight: 800;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center;
+}
+.AboutUs_banner h1 {
+  font-size: 80px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.AboutUs-desc h1,
+.AboutUs-desc p {
+  margin-top: 20px;
+  text-align: center;
+}
+.AboutUs_promies {
+  text-align: center;
+  background-color: rgb(214, 214, 245);
+}
+.AboutUs_promies h1 {
+  margin-bottom: 20px;
+}
+.AboutUs_promies_detail {
+  display: flex;
+  text-align: center;
+  margin-top: 30px 0px;
+}
+.AboutUs_promies h3 {
+  border: 1px solid;
+  margin: 0px 20px;
+  border-radius: 10px;
+  background-color: skyblue;
+  color: white;
+}
+.AboutUs_promies_info p {
+  margin-top: 10px;
+}
+.AnoutUs_info {
+  display: flex;
+}
+.AnoutUs_info_img {
+  margin: 20px 30px;
+}
+.AnoutUs_info_img img {
+  height: 80vh;
+}
+.AnoutUs_info_detail p {
+  font-size: 20px;
+  margin: 20px 30px;
+  color: gray;
+  text-align: justify;
+}
+@media (max-width: 429px) {
+  .AboutUs_banner {
+    background-image: none;
+  }
+  .AnoutUs_info {
+    display: block;
+    text-align: center;
+  }
+  .AnoutUs_info_img img {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .AboutUs_promies {
+    font-size: 10px;
+  }
+  .AboutUs_promies h3 {
+    font-size: 15px;
+  }
+}

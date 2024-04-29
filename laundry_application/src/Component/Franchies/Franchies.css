@@ -1,0 +1,100 @@
+.Franchies {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding-top: 120px;
+}
+.Franchies_right img {
+  width: 320px;
+  height: 370px;
+  margin-right: 100px;
+}
+.Franchies_left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* align-items: center; */
+  justify-content: center;
+}
+.frachice_details {
+  position: relative;
+}
+.frachice_details img {
+  width: 150px;
+  height: 150px;
+  border: 1px transparent;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.frachice_details img:hover {
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.city_name {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  font-weight: 900;
+}
+.modal_container {
+  background-color: skyblue;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 40%;
+  height: 90%;
+  text-align: center;
+}
+.modal_details_info {
+  padding: 10px 10px;
+  background-color: gray;
+  margin: 10px 20px;
+  border-radius: 20px;
+}
+.modal_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  align-items: center;
+}
+.modal_header button {
+  border: none;
+  background: transparent;
+}
+.modal_header button i {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.franchise_model {
+  margin: 0px auto;
+  padding-top: 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal_image {
+  text-align: center;
+}
+.modal_image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+@media (max-width: 429px) {
+  .Franchies_right {
+    display: none;
+  }
+  .modal_container {
+    width: 100%;
+    margin: 0px 20px;
+  }
+}

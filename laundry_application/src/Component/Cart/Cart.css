@@ -1,0 +1,8 @@
+.Cart_container {
+  height: 100vh;
+}
+.Cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

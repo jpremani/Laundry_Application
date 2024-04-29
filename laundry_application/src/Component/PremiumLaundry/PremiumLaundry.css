@@ -1,0 +1,41 @@
+.PremiumLaundry {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #111111;
+  color: white;
+}
+
+td i {
+  vertical-align: middle;
+}
+
+.PremiumLaundry table tbody button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+table tbody button i {
+  font-size: 20px;
+}
+
+button i {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+button:hover i {
+  color: #f00e0e;
+}

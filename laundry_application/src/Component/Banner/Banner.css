@@ -1,0 +1,91 @@
+.Banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(173, 216, 230, 0.9),
+      rgba(8, 193, 255, 0.3)
+    ),
+    url("../../assets/washing-machine.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.heading {
+  text-align: center;
+  padding-top: 150px;
+  animation: loading 1s ease-in-out;
+}
+.heading h1 {
+  font-size: 45px;
+  color: rgb(9, 91, 102);
+  font-weight: bold;
+}
+.heading h1 span {
+  color: rgb(21, 158, 21);
+}
+.banner_info {
+  padding: 0px 20px;
+  margin-left: 50px;
+  display: flex;
+}
+.banner_info_left {
+  animation: loading 1s ease-in-out;
+}
+.banner_info_left h5 {
+  margin-top: 70px;
+  font-size: 25px;
+}
+.banner_info_left p {
+  font-size: 20px;
+  color: rgb(4, 4, 114);
+}
+.banner_info button {
+  background: transparent;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin-top: 30px;
+  transition: 0.2s ease-out;
+}
+.banner_info button:hover {
+  background-color: rgb(25, 122, 155);
+  color: white;
+}
+.banner_info_right img {
+  width: 70%;
+  height: 80%;
+  margin-top: 30px;
+  margin-left: 50px;
+  animation: loading1 1s ease-in-out;
+}
+@media (max-width: 429px) {
+  .banner_info_right img {
+    display: none;
+  }
+  .banner_info_left {
+    margin-top: -90px;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+    margin-top: -110px;
+  }
+  .banner_info_left button {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 834px) {
+  .Banner {
+    padding: auto auto;
+  }
+}
+@media (max-width: 840px) {
+  .Banner {
+    padding-top: 120px;
+  }
+  .banner_info {
+    margin-top: 40px;
+  }
+}

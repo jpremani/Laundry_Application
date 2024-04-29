@@ -1,0 +1,21 @@
+.Pricing_menu_header {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Pricing_menu_header button {
+  padding: 10px 25px;
+  margin-left: 1px;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.Pricing_menu_header button:hover {
+  background-color: rgb(240, 222, 222);
+}
+.button_class {
+  background-color: green;
+  transition: 0.2s ease-in-out;
+}
+.Price_menu_body {
+  margin-top: 10px;
+}

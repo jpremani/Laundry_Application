@@ -1,0 +1,13 @@
+.Question {
+  text-align: center;
+  padding-top: 30px;
+}
+.accordion {
+  width: 80%;
+  margin: 40px auto;
+}
+.accordion-button {
+  background-color: rgb(121, 116, 116);
+  color: white;
+  margin-bottom: 10px;
+}
